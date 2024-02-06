@@ -1,0 +1,25 @@
+//========================================================================================================================================================
+// Base style
+body {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(to bottom, #001e28, #1f4037);
+	@extend %baseFont;
+}
+[class*="__container"] {
+	max-width: 1280px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
